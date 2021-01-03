@@ -15,6 +15,10 @@
 		ACBD062E25A093950040F99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBD062C25A093950040F99C /* LaunchScreen.storyboard */; };
 		ACBD063925A093950040F99C /* MyTeamRSSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD063825A093950040F99C /* MyTeamRSSTests.swift */; };
 		ACBD064425A093960040F99C /* MyTeamRSSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD064325A093960040F99C /* MyTeamRSSUITests.swift */; };
+		ACBD065225A093B40040F99C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD065125A093B40040F99C /* ViewModel.swift */; };
+		ACBD065425A093D00040F99C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD065325A093D00040F99C /* Model.swift */; };
+		ACBD065625A094850040F99C /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD065525A094850040F99C /* Repository.swift */; };
+		ACBD065825A096E00040F99C /* RSSReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD065725A096E00040F99C /* RSSReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		ACBD063F25A093950040F99C /* MyTeamRSSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTeamRSSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBD064325A093960040F99C /* MyTeamRSSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamRSSUITests.swift; sourceTree = "<group>"; };
 		ACBD064525A093960040F99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACBD065125A093B40040F99C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		ACBD065325A093D00040F99C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		ACBD065525A094850040F99C /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		ACBD065725A096E00040F99C /* RSSReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				ACBD062125A093900040F99C /* AppDelegate.swift */,
 				ACBD062325A093900040F99C /* SceneDelegate.swift */,
 				ACBD062525A093900040F99C /* ContentView.swift */,
+				ACBD065125A093B40040F99C /* ViewModel.swift */,
+				ACBD065325A093D00040F99C /* Model.swift */,
+				ACBD065525A094850040F99C /* Repository.swift */,
+				ACBD065725A096E00040F99C /* RSSReader.swift */,
 				ACBD062725A093950040F99C /* Assets.xcassets */,
 				ACBD062C25A093950040F99C /* LaunchScreen.storyboard */,
 				ACBD062F25A093950040F99C /* Info.plist */,
@@ -267,9 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBD065425A093D00040F99C /* Model.swift in Sources */,
+				ACBD065825A096E00040F99C /* RSSReader.swift in Sources */,
 				ACBD062225A093900040F99C /* AppDelegate.swift in Sources */,
 				ACBD062425A093900040F99C /* SceneDelegate.swift in Sources */,
+				ACBD065225A093B40040F99C /* ViewModel.swift in Sources */,
 				ACBD062625A093900040F99C /* ContentView.swift in Sources */,
+				ACBD065625A094850040F99C /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
